@@ -1,0 +1,23 @@
+@import 'variables';
+h1{
+    color: $red-color;
+}
+.card-course-item{
+    margin-top: 16px;
+}
+.card-text {
+    overflow: hidden;
+   text-overflow: ellipsis;
+   display: -webkit-box;
+   -webkit-line-clamp: 3; /* number of lines to show */
+   -webkit-box-orient: vertical;
+}
+.user-avatar {
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+.card-description {
+    min-height:70px
+}
